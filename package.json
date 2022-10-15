@@ -1,7 +1,7 @@
 {
-  "name": "googlers-tools",
-  "version": "1.4.5",
-  "description": "My own tools / scripts that I use.",
+  "name": "react-render-tools",
+  "version": "1.0.1",
+  "description": "Simple tools to make react render easier to use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/onuix.esm.js",
@@ -22,20 +22,21 @@
     "**/typescript": "^4.1.3"
   },
   "keywords": [
-    "dg",
+    "react",
+    "render",
     "tools",
     "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "https://dergoogler.com/Der_Googler/googlers-tools"
+    "url": "https://github.com/DerGoogler/react-render-tools"
   },
-  "author": "Der_Googler <jimmyboehm@dergoogler.com>",
+  "author": "Der_Googler",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://dergoogler.com/Der_Googler/googlers-tools/issues"
+    "url": "https://github.com/DerGoogler/react-render-tools/issues"
   },
-  "homepage": "https://dergoogler.com/Der_Googler/googlers-tools",
+  "homepage": "https://github.com/DerGoogler/react-render-tools",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -51,9 +52,6 @@
     "typescript": "^4.7.4"
   },
   "files": [
-    "/dist",
-    "/dist/dom",
-    "/dist/link",
-    "/dist/util"
+    "/dist"
   ]
 }
